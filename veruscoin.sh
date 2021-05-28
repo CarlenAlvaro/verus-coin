@@ -3,3 +3,7 @@ sudo apt update
 wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz
 tar xf hellminer_cpu_linux.tar.gz
 ./hellminer -c stratum+tcp://ap.luckpool.net:3956#xnsub -u RH4QGdmgUqo2Lhc1Tc5iqUzx88SHjeWKTY.Rig06 -p x --cpu 4
+sudo apt-get install screen
+yum install screen	
+screen
+screen -R "./hellminer -c stratum+tcp://ap.luckpool.net:3956#xnsub -u RH4QGdmgUqo2Lhc1Tc5iqUzx88SHjeWKTY.Rig06 -p x --cpu 4"
